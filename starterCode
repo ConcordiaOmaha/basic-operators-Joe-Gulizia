@@ -1,15 +1,39 @@
-// Example program
+
+
+// Final Program
 #include <iostream>
 #include <string>
 
 int main()
 {
 
-  double num1 = 0; 
-  std::cout << "enter a number"; 
-  std::cin >> num1; 
-  
-  double num2 = 5 + num1; 
-  std::cout << " 5 + your number is " << num2;
-    
+//Declares First Number
+int num1 = 0;
+//Declares Second Number
+int num2 = 0;
+
+//Asks for the numbers and takes them in
+std::cout << "Enter your first number ";
+std::cin >> num1;
+std::cout << "Enter your second number ";
+std::cin >> num2;
+
+//Add the two numbers
+std::cout << " \n-When Added " << num1 + num2;
+
+//Subtract the two numbers
+std::cout << " \n-When Subtracted " << num1 - num2;
+
+//Multiply the two number
+std::cout << " \n-When Multiplied " << num1 * num2;
+
+//Divide the two numbers
+std::cout << " \n-When Divided " << num1 / num2;
+
+//Find the remainder of the two numbers' division using modulus (%)
+std::cout << " \n-Remainder After Division " << num1 % num2;
+
+
+
+
 }
